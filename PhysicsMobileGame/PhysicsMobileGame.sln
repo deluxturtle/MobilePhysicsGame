@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsMobileGame.CSharp.Plugins", "PhysicsMobileGame.CSharp.Plugins.csproj", "{9A200DBD-D680-8B2B-A7C5-0D40B8DBDCF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsMobileGame.CSharp", "PhysicsMobileGame.CSharp.csproj", "{BFD04AB0-B4B1-DCF7-B5FE-25BDF743B975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsMobileGame.CSharp.Editor.Plugins", "PhysicsMobileGame.CSharp.Editor.Plugins.csproj", "{8814D920-755D-C0DE-5C6A-A0A8E4AF670C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A200DBD-D680-8B2B-A7C5-0D40B8DBDCF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A200DBD-D680-8B2B-A7C5-0D40B8DBDCF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A200DBD-D680-8B2B-A7C5-0D40B8DBDCF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A200DBD-D680-8B2B-A7C5-0D40B8DBDCF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD04AB0-B4B1-DCF7-B5FE-25BDF743B975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD04AB0-B4B1-DCF7-B5FE-25BDF743B975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD04AB0-B4B1-DCF7-B5FE-25BDF743B975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD04AB0-B4B1-DCF7-B5FE-25BDF743B975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8814D920-755D-C0DE-5C6A-A0A8E4AF670C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8814D920-755D-C0DE-5C6A-A0A8E4AF670C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8814D920-755D-C0DE-5C6A-A0A8E4AF670C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8814D920-755D-C0DE-5C6A-A0A8E4AF670C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
