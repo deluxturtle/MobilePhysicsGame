@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/// <summary>
+/// Saves level info completion rate.
+/// </summary>
 public class SaveManager : MonoBehaviour {
 
 
