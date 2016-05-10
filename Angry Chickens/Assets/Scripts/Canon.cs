@@ -34,11 +34,21 @@ public class Canon : MonoBehaviour
     private float cannonRotation = 49f;
     GameObject cannonBall;
     CameraFollow cameraFollow;
+    SaveManager saveManager;
     bool ended = false;
 
     // Use this for initialization
     void Start()
     {
+        GameObject SaveManagerObj;
+        if (SaveManagerObj  = GameObject.Find("SaveManager"))
+        {
+            saveManager = SaveManagerObj.GetComponent<SaveManager>();
+        }
+        else
+        {
+            Debug.LogWarning("Couldn't Find Save Manager Save Disabled.");
+        }
         cameraFollow = GameObject.Find("Main Camera").GetComponent<CameraFollow>();
         cannonBall = Resources.Load<GameObject>("CannonBall");
         maxStars = GameObject.FindGameObjectsWithTag("Star").Length;
@@ -108,6 +118,10 @@ public class Canon : MonoBehaviour
         {
             ended = true;
             Debug.Log("Game Won");
+            float percentWin = starCount / maxStars;
+
+            if(saveManager != null)
+                saveManager.SetLevelStars(percentWin);
         }
         else if (starCount <= 0 && ammo <= 0)
         {

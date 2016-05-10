@@ -30,7 +30,7 @@ public class LevelSelectMenu : MonoBehaviour
 
 
                     //if previous level has a star go ahead and assign button the link to the level.
-                    if (j - 1 > 0 && saveManager.GetLevelStars(buttonGroup.transform.GetChild(i).GetChild(j - 1).name) > 0)
+                    if ((j - 1) >= 0 && saveManager.GetLevelStars(buttonGroup.transform.GetChild(i).GetChild(j - 1).name) > 0)
                     {
                         btn.onClick.AddListener(() =>
                         {
